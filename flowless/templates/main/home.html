@@ -1,0 +1,18 @@
+sad
+<table>
+    <tr>
+        <td>Label</td>
+        <td>Installation Date</td>
+        <td>Latitude</td>
+        <td>Longitude</td>
+    </tr>
+    {% for fl in flowless %}
+    <tr>
+        <td>fl.label</td>
+        <td>fl.installation_date</td>
+        <td>fl.latitude</td>
+        <td>fl.longitude</td>
+    </tr>
+   
+{% endfor %}
+</table>
